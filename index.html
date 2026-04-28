@@ -3,15 +3,16 @@
     <head>
         <title>My Portfolio</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head> 
 
     <body> 
         <div class="title">
-	        Tyler
+            Tyler
 	    </div> 
-        <p>My name is Tyler but my nickname is Tyrone. I'm almost 
-        17 years only and I'm a junior in high school. I go to BUHS
-        however, I miss my old school in Grafton.</p> 
+        <p>My name is Tyler but my nickname is Tyrone. I'm 17 years 
+        old and I'm a junior in high school. I go to BUHS however,
+        I miss my old school in Grafton.</p> 
         <p>After high school I want to go into a career in coding. 
         Preferably in game design. I'm passionate about video 
         games and I want a career that involves it. I enjoy coding 
@@ -29,21 +30,12 @@
             <li>Spicy Food</li>
             <li>Air Fried Chicken</li>
         </ul>
+        <div id="output"></div>
         <a href="https://darksouls.wiki.fextralife.com/Dark+Souls+Wiki">
             Dark Souls Wiki<br />
             <br />
-            <button id="btn">Click Me</button> 
-    <p id="message">Fun Fact!</p> 
- 
-    <script> 
-    const data = ["The Moonlight Greatsword first appeared in King's Field and all Fromsoftware games after that!", "Demon's souls is coined as the first souls game but Fromsoftware made King's Field way before Demon's souls!", "In Dark Souls 1 you can fight any boss except the final as your first boss if you use glitches.", "Sekiro is getting a movie adaptation and Elden Ring is getting a Anime series!"];
-    const randomString = data[Math.floor(Math.random() * data.length)];
-    console.log(randomString);
-    
-  document.getElementById("btn").onclick = function() { 
-    document.getElementById("message").innerHTML = randomString; 
-}; 
-    </script> 
+        <button id="btn">Click Me</button> 
+            <p id="message">Fun Fact!</p> 
     </body>
     
        </html>
